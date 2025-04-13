@@ -24,3 +24,9 @@ const getNum = () => {
         window.alert('Veuillez saisir un numéro');
     }
 };
+
+numInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        getNum();
+    }
+});
