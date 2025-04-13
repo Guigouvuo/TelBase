@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>TelBase HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card"><h1>TelBase HTML</h1></div>
+        <div class="card"><label class="item" for="numInput">Numéro : </label><input class="item" id="numInput" type="number" required placeholder="33600000000" oninput="updateDescription()"></div>
+        <div class="card" id="buttonCard">
+            <input class="item" type="submit" value="Obtenir" id="submit" onclick="getNum()">
+            <p class="item" id="description">Obtient le nom associé au numéro</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+html, body {
+    height: 99%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#description {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    flex: 1 1 auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    justify-content: center;
+}
+
+#buttonCard {
+    flex-direction: column;
+}
+
+.item {
+    padding: 5px;
+}
+
+#submit {
+    width: 75%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 100%;
+}
