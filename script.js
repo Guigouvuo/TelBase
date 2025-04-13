@@ -11,7 +11,8 @@ const getNum = () => {
                 })
             .then(data => {
                 if (data) {
-                    window.alert(`Nom associé : ${data.Nom || 'Non trouvé'}`);
+                    window.alert(`Numéro : ${numInput.value || 'Non indiqué'}
+Nom associé : ${data.Nom || 'Non trouvé'}`);
                 } else {
                     window.alert('Aucun résultat trouvé pour ce numéro');
                 }
