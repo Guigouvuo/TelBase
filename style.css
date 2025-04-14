@@ -43,3 +43,8 @@ html, body {
     color: gray;
     padding-top: 0;
 }
+
+h1 {
+    font-size: 300%;
+    margin: 0;
+}
