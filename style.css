@@ -48,3 +48,7 @@ h1 {
     font-size: 300%;
     margin: 0;
 }
+
+#buttonCard:hover {
+    cursor: pointer;
+}
