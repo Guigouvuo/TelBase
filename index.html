@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>TelBase HTML</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="container">
-        <div class="card" id="titleCard"><h1>TelBase</h1><p id="version">Version 0.3.3</p></div>
+        <div class="card" id="titleCard"><h1>TelBase</h1><p id="version">Version 0.4.0</p></div>
         <div class="card"><label class="item" for="numInput">Numéro : </label><input class="item" id="numInput" type="number" required placeholder="33600000000" oninput="updateDescription()"></div>
         <div class="card" id="buttonCard">
             <input class="item" type="submit" value="Obtenir" id="submit" onclick="getNum()">
