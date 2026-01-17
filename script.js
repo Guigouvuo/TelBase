@@ -4,7 +4,7 @@ const login = document.getElementById("login");
 
 const loginStatus = () => {
     if (window.sessionStorage.getItem('token')) {
-        login.innerHTML = `Connecté en tant que ${window.sessionStorage.getItem('loginDataJSON').displayName || 'Utilisateur'}  | <a id="logoutLink" href="#" onclick="logout()">Déconnexion</a>`;
+        login.innerHTML = `Connecté en tant que ${window.sessionStorage.getItem('displayName') || 'Utilisateur'}  | <a id="logoutLink" href="#" onclick="logout()">Déconnexion</a>`;
     } else if (window.localStorage.getItem('savedCredentials')) {
         window.location.href = "login.html";
     } else {

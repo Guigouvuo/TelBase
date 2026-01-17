@@ -18,7 +18,7 @@ const loginAction = () => {
         if (!response.ok) throw new Error('Erreur lors de la connexion');
         return response.json();
     }).then(data => {
-        window.sessionStorage.setItem('loginDataJSON', data);
+        window.sessionStorage.setItem('displayName', data.displayName);
         window.sessionStorage.setItem('token', data.idToken);
         if (stayLoggedIn.checked) {
             window.localStorage.setItem('email', emailInput.value);
