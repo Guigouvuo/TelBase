@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TelBase - Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="titleCard"><h1>TelBase</h1><p>Connexion</p></div>
+        <div class="card multipleTextInputs">
+            <label class="item" for="emailInput">Email : </label><input class="item" id="emailInput" type="email" required placeholder="exemple@domaine.com"><br>
+            <label class="item" for="passwordInput">Mot de passe : </label><input class="item" id="passwordInput" type="password" required placeholder="Mot de passe">
+            <div class="item"><label for="stayLoggedIn">Rester connecté </label><input type="checkbox" id="stayLoggedIn" name="stayLoggedIn" checked></div>
+        </div>
+        <div class="card" id="buttonCard">
+            <input class="item button" type="submit" value="Se connecter" id="loginButton" onclick="loginAction()">
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ html, body {
     justify-content: center;
 }
 
-#buttonCard, #titleCard {
+#buttonCard, #titleCard, .multipleTextInputs {
     flex-direction: column;
 }
 
@@ -30,7 +30,7 @@ html, body {
     padding: 5px;
 }
 
-#submit {
+.button {
     width: 75%;
     height: 25%;
     border-radius: 10px;
@@ -39,7 +39,7 @@ html, body {
     font-size: 100%;
 }
 
-#description, #version {
+.smallgray {
     color: gray;
     padding-top: 0;
 }
@@ -49,6 +49,6 @@ h1 {
     margin: 0;
 }
 
-#submit:hover {
+.button:hover {
     cursor: pointer;
 }
