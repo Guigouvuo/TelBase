@@ -52,3 +52,14 @@ h1 {
 .button:hover {
     cursor: pointer;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
+
+    .card {
+        border: solid white 1px;
+    }
+}
